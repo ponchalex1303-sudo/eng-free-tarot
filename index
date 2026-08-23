@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знаки Вселенной — Цифровые Гайды</title>
+    <style>
+        /* Базовые стили в глубоком эзотерическом стиле */
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0d0814 0%, #170e2b 100%);
+            color: #f0e6ff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            padding: 30px 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        /* Аватар персонажа */
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 2px solid #b388ff;
+            box-shadow: 0 0 20px rgba(179, 136, 255, 0.4);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 10px 0 5px 0;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #b388ff;
+            margin-bottom: 35px;
+            font-style: italic;
+        }
+
+        /* Стили кнопок-блоков */
+        .card-link {
+            display: block;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(179, 136, 255, 0.2);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #ffffff;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .card-link:hover {
+            background: rgba(179, 136, 255, 0.08);
+            border-color: #b388ff;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(179, 136, 255, 0.1);
+        }
+
+        /* Выделение платного продукта */
+        .premium {
+            background: linear-gradient(135deg, rgba(75, 0, 130, 0.3) 0%, rgba(179, 136, 255, 0.1) 100%);
+            border: 1px solid rgba(179, 136, 255, 0.4);
+        }
+
+        .premium:hover {
+            border-color: #d1b3ff;
+            box-shadow: 0 5px 20px rgba(179, 136, 255, 0.2);
+        }
+
+        .btn-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-desc {
+            font-size: 13px;
+            color: #c3b5db;
+            line-height: 1.4;
+        }
+
+        .price-tag {
+            display: inline-block;
+            margin-top: 12px;
+            background: #b388ff;
+            color: #0d0814;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Замените avatar.png на ссылку на вашу Волшебную Ведьму из Гитхаба -->
+        <img src="avatar.png" alt="Путеводитель" class="avatar">
+        
+        <h1>Знаки Вселенной</h1>
+        <div class="subtitle">Твой гид по главным сферам жизни</div>
+
+        <!-- КНОПКА 1: БЕСПЛАТНЫЙ ГАЙД -->
+        <a href="free-tarot-guide.pdf" download class="card-link">
+            <div class="btn-title">🔮 Бесплатный гайд: 5 раскладов Таро</div>
+            <div class="btn-desc">Справится даже новичок + бонус: как выбрать свою первую идеальную колоду.</div>
+        </a>
+
+        <!-- КНОПКА 2: ПЛАТНЫЙ ГАЙД -->
+        <a href="ССЫЛКА_НА_ОПЛАТУ_БУСТИ_ИЛИ_ДРУГОЙ_СЕРВИС" class="card-link premium">
+            <div class="btn-title">📘 Гайд «Как читать Таро для себя»</div>
+            <div class="btn-desc">Полное руководство для новичков: разбор 78 карт, практические техники чтения и схемы раскладов по сферам жизни.</div>
+            <div class="price-tag">Купить — 490 ₽</div>
+        </a>
+    </div>
+
+</body>
+</html>
